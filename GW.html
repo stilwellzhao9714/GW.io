@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warhammer 40K Fan Page</title>
+    <style>
+        body {
+            font-family: 'Lucida Console', Courier, monospace;
+            background-color: #0a0a0a;
+            color: #d4af37;
+            text-align: center;
+            padding: 30px;
+        }
+        header {
+            background: #2b2b2b;
+            color: #d4af37;
+            padding: 20px;
+            border-bottom: 5px solid #ff0000;
+        }
+        section {
+            margin: 30px 0;
+            padding: 20px;
+            background-color: #1a1a1a;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.5);
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #d4af37;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+        img:hover {
+            transform: scale(1.05);
+        }
+        iframe {
+            width: 560px;
+            height: 315px;
+            margin-top: 15px;
+            border: 2px solid #d4af37;
+        }
+        footer {
+            margin-top: 50px;
+            color: #777;
+        }
+        h1, h2 {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>For the Emperor!</h1>
+        <p>在無盡的戰爭中 唯有戰爭.</p>
+    </header>
+    
+    <section>
+        <h2>人類帝皇與叛徒掠奪者阿巴頓以及忠誠的帝國之拳星際戰士</h2>
+        <div class="gallery">
+            <img src="https://th.bing.com/th/id/OIP.-XH4PVV0ngEeWpfiB3TW5AHaEK?w=259&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Battle Scene 1">
+            <img src="https://pm1.narvii.com/6202/b07f714079263f71b6bb995ced2e40ae7cdefbbe_hq.jpg" alt="Battle Scene 2">
+            <img src="https://truth.bahamut.com.tw/s01/202206/581c4c4b8953cbcbb0f30546addc9b82.JPG" alt="Battle Scene 3">
+        </div>
+    </section>
+    
+    <section>
+        <h2>忠誠的影片</h2>
+        <iframe src="https://www.youtube.com/embed/x1L36tESjzw" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/xYdLeKX6NLk" allowfullscreen></iframe>
+    </section>
+    
+    <footer>
+        <p>Glory to the Imperium of Man!</p>
+    </footer>
+</body>
+</html>
